@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="proyecto5css.css"/>
+
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
+    
+    <script src="proyecto5js.js">
+    </script>
+
+    <div id=titulo>MicroRobots</div> <BR><BR><BR><BR><BR><BR>
+
+    <form action="">
+
+        <p style="text-align: center"> El cuadrado de rayas es las Posicion Inicial mientras que el cuadro solido es la Posicion Final. <BR> <BR>
+        Las filas y columnas se cuentan de 0 a 5. <BR> Introduzca valores entre 0 y 5. <BR> <BR> </p>
+        
+        <p style="text-align: center">Siguiente fila:
+        <input id= "sig" type="text"></p>
+
+        <p style="text-align: center">Siguiente columna:
+        <input id= "sig2" type="text"></p>
+
+        <p style="text-align: center"><input id="button" type="button" value="Comprobar movimiento" onClick="comprobarMovimiento();"></p>
+
+        <p style="text-align: center">Movimientos realizados:
+        <input id= "mov" type="movimientos" value="" disabled="disabled"></p>
+
+        <p style="text-align: center">Número de movimientos:
+        <input id="showCount" type="text" disabled="disabled"></p>
+
+        <p style="text-align: center">Mensajes:
+        <input id= "mensajes" type="text" disabled="disabled"></p>
+
+        <p style="text-align: center"><input id="reiniciar" type="button" value="Reiniciar tablero" onClick="window.location.reload()"></p>
+
+        <p style="text-align: center"><BR> Juego realizado por: <BR>
+        Vicente Ferrandis y William Azuaga.</p>
+        
+    </form>
+    
+    
+</body>
+</html>
